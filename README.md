@@ -9,3 +9,6 @@ Run
 ```
  python create.py
 ```
+```
+./create.sh
+```
