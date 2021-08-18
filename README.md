@@ -12,3 +12,4 @@ Run
 ```
 ./create.sh
 ```
+If <code>create.sh</code> script dosen't work try running <code>chmod +x create.sh</code> and run the script again
