@@ -2,11 +2,11 @@ echo "EXPRESS APP GENERATOR"
 echo "============================="
 echo -e "[ i ] Initializing npm project..."
 echo -e "\n"
-npm --silent init -y 2>/dev/null
+npm init --silent -y 2>/dev/null
 echo "[ ✔ ] Project initialized successfully"
 echo -e "\n"
 echo "[ i ] Instaling dependencies..."
-npm --silent i express cors morgan 2>/dev/null && npm --silent i nodemon --save-dev 2>/dev/null
+npm i --silent express cors morgan 2>/dev/null && npm i --silent nodemon --save-dev 2>/dev/null
 sleep 3
 echo -e "\n"
 echo "[ ✔ ] Dependencies installed successfully"
@@ -25,10 +25,5 @@ echo -e "\n"
 sleep 3
 echo "[ i ] Project created successfully"
 cd ..
-echo -e "\n"
-echo "[ i ] Opening..."
-sleep 2
 echo "=================================="
-vim .
-rm -r create.sh
-exit 1
+exit 0
