@@ -27,6 +27,16 @@ In order to launch the express app you need to change the scripts in the <code>p
 <br>
 Use bash version. Python is not finished yet
 
+## Recomendations
+
+If you want to use this script anywhere create an alias in your terminal config file (.bashrc or .zshrc). Add this line to the bottom:
+```
+alias express="bash LOCATION/create.sh"
+````
+Replace LOCATION with the absolute route of the create.sh file
+<br>
+Now you can create an express app anywhere using the express command
+
 ## TODO
  - [ ] Let user install his/her own dependencies
 
