@@ -24,6 +24,9 @@ If <code>create.sh</code> script dosen't work try running <code>chmod +x create.
 3. Creates a public folder with index.html,style.css and app.js files with their basic structure
 
 In order to launch the express app you need to change the scripts in the <code>package.json</code> file
+<br>
+Use bash version. Python is not finished yet
 
 ## TODO
  - [ ] Let user install his/her own dependencies
+
