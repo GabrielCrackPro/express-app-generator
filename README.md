@@ -1,6 +1,7 @@
 # Express App Generator
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/GabrielCrackPro/express-app-generator/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/GabrielCrackPro/express-app-generator/pulls)
+
 Script that generates a express app automatically
 
 ## How to run?
