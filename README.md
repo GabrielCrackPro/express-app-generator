@@ -35,7 +35,7 @@ If you want to use this script anywhere create an alias in your terminal config 
 ```
 alias express="bash LOCATION/create.sh"
 ````
-Replace LOCATION with the absolute route of the create.sh file
+Replace LOCATION with the absolute path of the create.sh file
 <br>
 Now you can create an express app anywhere using the express command
 
