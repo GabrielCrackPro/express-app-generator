@@ -21,7 +21,7 @@ html_content="
 <html> \n
  <head> \n
    <title>Document</title> \n
-   <link rel='stylesheet' src='style.css'> \n 
+   <link rel='stylesheet' href='style.css'> \n 
   </head> \n
   <body> \n
    <script src='app.js'></script> \n
