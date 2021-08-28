@@ -35,12 +35,13 @@ style_content="
  box-sizing: border-box; \n
 } \n
 "
+tput civis
 
 echo "EXPRESS APP GENERATOR"
 echo "============================="
 echo -e "[ i ] Initializing npm project..."
 echo -e "\n"
-npm init --silent -y 2>/dev/null
+npm init -y --silent 2>/dev/null
 echo "[ ✔ ] Project initialized successfully"
 echo -e "\n"
 echo "[ i ] Instaling dependencies..."
@@ -71,4 +72,5 @@ echo -e "\n"
 sleep 3
 echo "[ ✔ ] Project created successfully"
 echo "=================================="
+tput cnorm
 exit 0
