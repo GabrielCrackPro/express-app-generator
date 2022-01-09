@@ -44,7 +44,7 @@ echo -e "\n"
 npm init -y --silent 2>/dev/null
 echo "[ ✔ ] Project initialized successfully"
 echo -e "\n"
-echo "[ i ] Instaling dependencies..."
+echo "[ i ] Installing dependencies..."
 npm i --silent express cors morgan 2>/dev/null && npm i --silent nodemon --save-dev 2>/dev/null
 sleep 3
 echo -e "\n"
